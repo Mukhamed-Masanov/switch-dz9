@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    //1
+    let num = +prompt('Введите номер месяца');
+    switch (num) {
+        case   1:
+            alert('Январь')
+            break;
+        case 2:
+            alert('Февраль')
+            break;
+        case 3 :
+            alert('Март')
+            break;
+        case 4 :
+            alert('Апрель')
+            break;
+        case 5 :
+            alert('Май')
+            break;
+        case 6 :
+            alert('Июнь')
+            break;
+        case 7 :
+            alert('Июль')
+            break;
+        case 8 :
+            alert('Август')
+            break;
+        case 9 :
+            alert('Сентябрь')
+            break;
+        case 10 :
+            alert('Октябрь')
+            break;
+        case 11 :
+            alert('Ноябрь')
+            break;
+        case 12 :
+            alert('Декабрь')
+            break;
+        default:
+            alert('Вводите правильные значения')
+    }
+</script>
+
+<script>
+    //2
+    let num1 = +prompt('Введите первое число'), num2 = +prompt('Введите второе число') ,
+     sign = prompt('Введите операцию которую хотите произвести');
+    switch (sign) {
+        case "+":
+            alert(num1 + num2)
+            break;
+        case "-":
+            alert(num1 - num2)
+            break;
+        case "*":
+            alert(num1 * num2)
+            break;
+        case "/":
+            alert(num1 / num2);
+            break;
+        default:
+            alert("Введите корректный знак")
+    }
+
+</script>
+</body>
+</html>
